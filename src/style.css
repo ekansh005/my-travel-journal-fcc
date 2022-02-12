@@ -29,3 +29,65 @@ p {
 .navbar--title {
   margin-left: 6px;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+
+.card {
+  display: flex;
+  font-size: 11px;
+  max-width: 470px;
+}
+
+.card--img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.card--marker {
+  height: 15px;
+  width: 10px;
+  margin-right: 6px;
+}
+
+.card--country {
+  margin-right: 10px;
+}
+
+.card--url {
+  color: #918e9b;
+}
+
+.card--attr {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.card--content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card--timeline {
+  margin-bottom: 10px;
+}
+
+.separator {
+  margin: 20px 0;
+  border: 1px solid #f5f5f5;
+  width: 100%;
+  max-width: 470px;
+}
